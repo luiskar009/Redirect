@@ -1,0 +1,39 @@
+﻿<Window x:Class="Redirect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Redirect"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="428" Width="600">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*" />
+            <ColumnDefinition Width="447*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="125*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Redirect</Label>
+        <ComboBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" IsTextSearchEnabled="True" Name="comboBox1">
+        </ComboBox>
+        <Label Grid.Row="2">Url Raiz</Label>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="urlRaizBox"/>
+        <Label Grid.Row="4">Url a Redireccionar</Label>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="urlARedirectBox"/>
+        <Label Grid.Row="6">Url Final</Label>
+        <TextBox Grid.Row="6" Grid.Column="1" Name="urlFinalBox"/>
+        <Button Grid.Row="8" Grid.ColumnSpan="2" x:Name="btnRedirect" Click="btnRedirect_Click" Content="Redireccionar"/>
+        <TextBox Grid.Row="10" Grid.ColumnSpan="2"  Name="ResultBox"/>
+    </Grid>
+</Window>

@@ -1,6 +1,1 @@
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\bin\Debug\Redirect.exe.config
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\obj\Debug\Redirect.csprojResolveAssemblyReference.cache
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\bin\Debug\Redirect.exe
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\bin\Debug\Redirect.pdb
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\obj\Debug\Redirect.exe
-c:\users\lnavas\documents\visual studio 2015\Projects\Redirect\Redirect\obj\Debug\Redirect.pdb
+C:\Users\portatil\Source\Repos\Redirect\Redirect\bin\Debug\Redirect.exe.config
